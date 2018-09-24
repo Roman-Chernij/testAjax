@@ -1,0 +1,43 @@
+.btn {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  padding: 13px;
+  min-width: 118px;
+  border: 1px solid transparent;
+
+  &:hover {
+      text-decoration: none;
+  }
+
+  &-primary {
+    border-color: $light-color;
+    background-color: rgba($primary-color, .41);
+    color: rgba($primary-color, .90);
+
+    &:hover {
+      background-color: rgba($primary-color, .65);
+      color: darken($primary-color, 50%);
+    }
+  }
+
+  &-secondary {
+    border-color: $light-color;
+    color: $secondary-color;
+    font-weight: 600;
+
+    &-outline {
+      background-color: transparent;
+
+      &:hover {
+        background-color: rgba($secondary-color, .49);
+      }
+    }
+  }
+
+  &-center {
+    display: block;
+    margin: 0 auto;
+  }
+}

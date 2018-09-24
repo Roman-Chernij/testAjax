@@ -1,0 +1,52 @@
+$mobileM: 480;
+$mobile:  767;
+$tabletM: 992;
+$tablet:  1023;
+$laptopM:  1200;
+$laptop:  1440;
+
+$widthvalue:'max-width';
+
+$mobileMPoint: (#{$widthvalue} : #{$mobileM}px);
+$mobilePoint:  (#{$widthvalue} : #{$mobile}px);
+$tabletMPoint: (#{$widthvalue} : #{$tabletM}px);
+$tabletPoint:  (#{$widthvalue} : #{$tablet}px);
+$laptopMPoint:  (#{$widthvalue} : #{$laptopM}px);
+$laptopPoint:  (#{$widthvalue} : #{$laptop}px);
+
+
+
+$primary-color:#a5a4a4;
+$secondary-color:#ed1111;
+$success-color:#333333;
+$dark-color:#000;
+$light-color: #e5e5e5;
+$light-color2: #fff;
+
+$urlFont:'../fonts';
+$urlImage:'../images/';
+
+
+$container: 1170;
+$container-padding-lg: 39;
+$container-padding-t: 20;
+$container-padding-m: 15;
+
+$grid-padding-lg: 15;
+$grid-padding-t: 10;
+$grid-padding-m: 10;
+
+$font1:'ubuntu';
+$font1Dir:'Ubuntu';
+
+$font2:'Raleway-Medium';
+$font2Dir:'raleway';
+
+$basis-font-size:11;
+$basis-color: $primary-color;
+$basis-line-height: 1.375;
+$basis-min-width-window: 320;
+$basis-font-family: $font1, 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$body-bg: #efeeee;
+
+$transitionTime: .3;

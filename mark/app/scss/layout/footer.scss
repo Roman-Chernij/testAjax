@@ -1,0 +1,22 @@
+.footer {
+  padding: 28px 0 25px;
+
+  &-holder {
+    box-shadow: 0 0 0 1px $light-color;
+    padding: 41px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+  }
+
+  @include breakpoint($tabletM) {
+
+    &-holder {
+        margin-bottom: 20px;
+    }
+  }
+}
